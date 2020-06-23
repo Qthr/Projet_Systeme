@@ -1,0 +1,25 @@
+//processus :
+gestion processus par fichiers : x
+communication inter/intra processus : x
+
+//threads :
+gestion thread par mots : x
+
+//compilation :
+makefile : ~90%
+
+//fichiers
+traitement des fichiers : x
+ouverture des fichiers : x
+fermeture des fichiers : x
+
+//cryptage : 
+cryptage en fonction des decalages : x
+
+//decryptage : 
+decryptage en fonction decalage : x
+
+//formalisme de documentation :
+utiliser doxygen : x 
+
+

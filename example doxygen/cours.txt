@@ -1,0 +1,27 @@
+plus d'infos : 
+rechercher : doxygen format c
+
+Petit cours de bases : 
+balises :
+
+
+Au debut de CHAQUE fichier : 
+
+\file : nom du fichier
+\brief : breve description du fichier
+
+structures :
+
+\struct : nom d la structure
+\brief : description du struct
+
+pour chaques membres de la structure il faut ajouter :
+
+/*!< breve explication du membre*/
+
+fonction :
+
+\fn : nom de la fonction
+\brief : description de la fonction 
+\param : explication des différents parametres cf l'implémentation ou doc
+\return : inscrire ce que renvoie la fonction 

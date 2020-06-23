@@ -1,0 +1,23 @@
+CC= gcc
+CFLAGS = -Wall
+LDFLAGS = -lm -pthread
+EXEC = cesar
+
+all : $(EXEC)
+
+run : $(EXEC)
+	./$(EXEC) ${ARGS}
+
+projet: main.o open.o
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+main.o: open.h
+
+%.o: %.c
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+
+
+clean:
+	rm -rf *.o
+	rm -rf projet
